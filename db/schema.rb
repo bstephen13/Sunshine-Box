@@ -19,10 +19,8 @@ ActiveRecord::Schema.define(version: 2021_03_03_212054) do
     t.string "title"
     t.text "description"
     t.decimal "cost"
-    t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["user_id"], name: "index_pages_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
