@@ -1,11 +1,15 @@
 <div class="booyah-box col-10 offset-1">  
-  <div class="col-12 col-sm-3">
-    <br />
-    <%= link_to 'Add Balance', add_balance_path %>
-    <br />
-    <%= link_to 'Make Payment', make_payment_path %>
-    <br />
-    <%= link_to 'Update Account', update_account_path %>
-    <br />
+  <div class="flex-content-container">
+  	<br/>
+    <h1> Select a User Type: </h1>
+    	<br/>
+ 		<%= link_to 'Customer', user_profile_path, class: 'nav-link' %>
+        <br/>
+        	<%= link_to 'Agent', user_profile_path, class: 'nav-link' %>
+        <br/>
+        	<%= link_to 'Nonprofit', user_profile_path, class: 'nav-link' %>
+        <br/>
+        	<%= link_to 'Administrator', user_profile_path, class: 'nav-link' %>
+    	<br />
   </div>
 </div>
