@@ -1,15 +1,37 @@
-<br />
+<div class="container booyah-box user-profile">  
+	<h1>Update Information</h1>
+  <br />
+  <div class="row">
+  	<div class="col-3"></div>
+      <div class="col-6">
+     	
+      	 <%= form_with url: user_profile_path, id: "video-subscription-form" do %>
 
-<div class="booyah-box col-10 offset-1">
-	<div class="flex-content-container">
-		<h1>Update Information</h1>
-		<h3>Change Phone Number</h3>
-		<div class="input">
-			Enter New Phone Number (change this later once you figure out html and css for text box)
-		</div>
-		<br/>
-		<h3>Change Password</h3>
-		<h3>Update Name</h3>
-	</div>
+	      <div class="field">
+	      	<label>Phone Number </label>
+	        <input type="text" class="text" name="phone_number" value="923233323" />
+	      </div>
+	      <br/>
+	      <div class="field">
+	      	<label>Password </label>
+	        <input type="password" class="text" name="password" value="123456" />
+	      </div>
+	      <br/>
+	      <div class="field">
+	      	<label>Password Confirmation</label>
+	        <input type="password" class="text" name="password_confirmation" value="123456" />
+	      </div>
+	      <br />
+	      <div class="field">
+	      	<label>User Name </label>
+	        <input type="text" class="text" name="user_name" value="Customer" />
+	      </div>
 
+	      <div class="actions">
+	      	<input type="submit" class="btn btn-primary" style="width: 95%;"/>
+	      </div>
+	      <% end %>
+      </div>
+      
+  </div>
 </div>

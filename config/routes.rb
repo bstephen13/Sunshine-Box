@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'make_payment', to: 'make_payment#payment'
   get 'update_account', to: 'update_account#update'
   get 'user_profile', to: 'user_profile#profile'
+  get 'add_balance', to: 'user_profile#add_balance'
 
   namespace :agent do
     resources :pages, only: [:show] #add :new, :create, beforehand if you want the agent to be able to add pages to user profile

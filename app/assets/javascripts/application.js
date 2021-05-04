@@ -18,4 +18,5 @@
 //= require popper
 //= require tether
 //= require bootstrap-sprockets
+//= require profile
 //= require_tree .
