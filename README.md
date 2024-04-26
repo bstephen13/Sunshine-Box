@@ -40,11 +40,13 @@ Sunshine Box is a for profit company that provides developing countries with por
 # Problem Context
 Sunshine Box is determined in providing environmentally safe and affordable electricity to those in need of it. In countries such as Haiti, where laptops and computers are often impractical, a cell phone is usually the only way to do essential tasks like monitoring breaking weather conditions, staying informed on current events, conducting online banking or staying in touch with distant family. Currently 80% of Haitians have cell phones, but only 12% have access to electricity. Without a source of electricity, it becomes impossible to charge and use a cell phone, depriving a majority of citizens in Haiti the ability to access the internet and communicate via telecommerce. The Sunshine Box is a solution to this problem, as it serves as a lifeline to important functions, allowing the people who use it to stay connected. Since the Sunshine Box is solar powered it can be used at any time during the day and can be made available to anyone who wishes to use it. As of right now, all payments to the Sunshine Box are done upfront, which puts customers and agents at risk of being robbed. Implementing a web application which allows customers and agents to carry out these transactions will not only make it easier to use the Sunshine Box, but also safer.
 
+# Software Architecture
+![Alt Text](SoftwareArchitecture.png)
 
-# Methodology:
+# Methodology
 Agile: we used an agile methodology when implementing our web program, which allowed us to assess the requirements provided by customers, agents and administrators of the Sunshine Box, to   develop solutions through collaborative efforts between our development team and the end users. Further allowing us to adapt and update our software, by recognizing the ever-changing user stories and feedback we received. 
 
-# Tool Selection:
+# Tool Selection
 Ruby on Rails: or Rails, is a server-side web application framework written in the programming language Ruby. Rails is a model–view–controller framework, which provides default structures for a database, a web service, and web pages. By using Ruby on Rails, we were able to create a multifunctional web application that allowed multiple users to create accounts, and access features related directly to the Sunshine Box.
 
 HTML/CSS: HTML is a Hyper Text Markup Language, which is the standard markup language used to create web pages. HTML is used to define the contents of web pages, and is often used hand in hand with CSS, Cascading Style Sheets. CSS is used to format the layout of a webpage, and saves a lot of time for programmers by allowing them to control the layout of multiple pages at once.
@@ -66,8 +68,4 @@ RSpec: this is a Ruby gem that can be installed and configured to allow us to ru
 
 # Documentation Management
 Github: is a code hosting platform for version control and collaboration. It allowed our team to work together on projects from anywhere. By editing our source code, we were easily able to push our code to our teammates, and pull their code in return. It proved to be the most functional way to complete a year-long project while not being in each other's presence due to the pandemic.
-
-
-# Software Architecture
-![Alt Text](SoftwareArchitecture.png)
 
